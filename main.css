@@ -12,3 +12,13 @@ img {
   margin-right: auto;
   width: 100%;
 }
+
+ul {
+	list-style: none;
+}
+
+li:before {
+	content: '\262D';
+	margin-left: -22px;
+	margin-right: 10px;
+} 
