@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Apply to Cheeki Breeki Enterprises</title>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body>
 		<h1>Available Positions</h1>
@@ -19,10 +19,25 @@
 			<li>Resident Babushka</li>
 		</ul>
 
-		<!--TODO: Apply button -> popup-->
+		<!--TODO: Apply button -> popup or text areas-->
+		<button type="button" onclick="showApplicationForm()">See an Opening? Apply Now!</button>
 		
-		<a href="about.html">&nbsp&lt Previous Page</a>
-		<br>
+		<div id="applicationForm" style="display: none;">
+			<form action="/action_page.php">
+	  			<label for="name">Full Name:</label>
+	  			<input type="text" id="name" name="name"><br>
+
+	  			<label for="position">Job Position:</label>
+	  			<input type="text" id="position" name="position"><br><br>
+
+	  			<button type="button" onclick="submitApplication()">Submit</button>
+			</form>
+		</div><br>
+
+		
+		<a href="about.html">&nbsp&lt Previous Page</a><br>
 		<a href="index.html">&lt&lt Back to Motherland</a>
+
+		<script type="text/javascript" src="scripts/apply.js"></script>
 	</body>
 </html>
