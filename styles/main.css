@@ -1,5 +1,10 @@
 body {
-	margin-left: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h1 {
+	background-color: #bd1010
 }
 
 div#applicationForm {
@@ -34,4 +39,4 @@ ul li::before {
 	content: '\262D';
 	margin-left: -22px;
 	margin-right: 10px;
-} 
+}
