@@ -5,7 +5,7 @@ var position
 function submitApplication() {
 	name = document.getElementById("name").value
 	position = document.getElementById("position").value
-	window.alert(`You have submitted your application for ${position}, ${name}.`)
+	window.alert(`Thank you, ${name}. You have submitted your application for ${position}.`)
 }
 
 function showApplicationForm() {
