@@ -3,14 +3,17 @@
   <head>
 		<title>Products and Services</title>
 		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/collapsible.css">
   </head>
 	<body>
 		<!--TODO: Menu bar (div?)-->
 
 		<h1>Shop at Cheeki Breeki Enterprises</h1>
-		<p>We deliver and install all of our products free of charge.
+		<p>We deliver and install all of our products free of charge.<br>
 
-		<h2>Food and Cooking</h2>
+		<!-- <button type="button" class="collapsible"><h2>Food and Cooking</h2></button> -->
+    <h2 class="collapsible">Food and Cooking</h2>
+		<div class="content", id="content0">
 		<ul>
 			<li>Bayonet Knife Sets</li>
 			<li>Soviet Waffle Irons</li>
@@ -23,8 +26,10 @@
 			<li>End-of-Month Care Packages (Subscription)</li>
 			<li>Rent-a-Babushka (Subscription)</li>
 		</ul>
+		</div>
 
-		<h2>Technology and Furniture</h2>
+		<h2 class="collapsible">Technology and Furniture</h2>
+    <div class="content", id="content1">
 		<ul>
 			<li>Authentic Low-Resolution TVs</li>
 			<li>Soviet Anthem Jukeboxes</li>
@@ -39,8 +44,10 @@
 			<li>Squatting Posts</li>
 			<li>Dashcam Entertainment Systems</li>
 		</ul>
+    </div>
 
-		<h2>Home Defense</h2>
+		<h2 class="collapsible">Home Defense</h2>
+    <div class="content", id="content2">
 		<ul>
 			<li>Radiation Shielding</li>
 			<li>Perimeter Alarms</li>
@@ -50,16 +57,20 @@
 			<li>Russian Carpet Trapdoors</li>
 			<li>Bear Cages</li>
 		</ul>
+    </div>
 
-		<h2>Clothing</h2>
+		<h2 class="collapsible">Clothing</h2>
+    <div class="content", id="content3">
 		<ul>
 			<li>Custom-Tailored Tracksuits and Sweatpants</li>
 			<li>Headphone Ushankas</li>
 			<li>Gas-Mask Ushankas</li>
 			<li>Squat-Assisting Sneakers</li>
 		</ul>
+    </div>
 
-		<h2>Automobile</h2>
+		<h2 class="collapsible">Automobile</h2>
+    <div class="content", id="content4">
 		<ul>
 			<li>Lada Repair and Tuning</li>
 			<li>Engine Vodka Injectors</li>
@@ -67,17 +78,20 @@
 			<li>Tank Garages</li>
 			<li>Tank Resupply and Maintenance</li>
 		</ul>
+    </div>
 
-		<h2>Health</h2>
+		<h2 class="collapsible">Health</h2>
+    <div class="content", id="content5">
 		<ul>
 			<li>Radiation Sickness Screening and Treatment</li>
 			<li>Intravenous Alcohol Injectors</li>
 		</ul>
+    </div>
 		<!--TODO: Order button -> shop page-->
 
-		<br>
-		<br>
+		<hr>
 		<a href="index.html">&lt&lt Back to Motherland</a>
 
+		<script type="text/javascript" src="scripts/collapsible.js"></script>
 	</body>
 </html>
