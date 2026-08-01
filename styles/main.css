@@ -13,9 +13,13 @@ a {
     --bs-nav-link-color: lightgray;
 }
 
+.btn-dark {
+    --bs-btn-color: #f8f8f8;
+}
+
 img.favicon {
     display: inline-block;
     height: 1.25em;
     width: auto;
-    transform:translate(0, -.125em);
+    transform:translate(0, -.1em);
 }
