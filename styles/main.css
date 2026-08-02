@@ -13,6 +13,10 @@ a {
     --bs-nav-link-color: lightgray;
 }
 
+.btn-secondary {
+    margin-inline-end: .5rem;
+}
+
 .btn-dark, .btn-secondary {
     --bs-btn-color: #f8f8f8;
 }
