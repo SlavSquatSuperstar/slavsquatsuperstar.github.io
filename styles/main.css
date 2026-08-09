@@ -9,16 +9,36 @@ h1 {
     padding-bottom: .25rem;
 }
 
-a {
+.nav-link {
     --bs-nav-link-color: lightgray;
+    --bs-nav-link-hover-color: dimgray;
 }
 
+:root {
+    --btn-color: #f8f8f8;
+    --btn-bg-secondary: #74787c;
+    --btn-bg-hover-secondary: #64686c;
+    --btn-bg-dark: #212529;
+    --btn-bg-hover-dark: #373b3f;
+}
+
+
 .btn-secondary {
+    --bs-btn-color: var(--btn-color);
+    --bs-btn-bg: var(--btn-bg-secondary);
+    --bs-btn-border-color: var(--btn-bg-secondary);
+    --bs-btn-hover-bg: var(--btn-bg-hover-secondary);
+    --bs-btn-hover-border-color: var(--btn-bg-hover-secondary);
     margin-inline-end: .5rem;
 }
 
-.btn-dark, .btn-secondary {
-    --bs-btn-color: #f8f8f8;
+.btn-dark {
+    --bs-btn-color: var(--btn-color);
+    --bs-btn-bg: var(--btn-bg-dark);
+    --bs-btn-border-color: var(--btn-bg-dark);
+    --bs-btn-hover-bg: var(--btn-bg-hover-dark);
+    --bs-btn-hover-border-color: var(--btn-bg-hover-dark);
+    margin-inline-end: 1rem;
 }
 
 img.favicon {
